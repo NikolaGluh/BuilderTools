@@ -105,9 +105,9 @@ function main:Run()
 	
 	local toolbar = plugin:CreateToolbar("BuilderTools")
 	
-	local unanchoredButton = toolbar:CreateButton("Unanchored Detector","Highlights all unanchored parts on the map.","rbxassetid://129899967141649")
-	local lockedButton = toolbar:CreateButton("Locked Detector","Highlights all locked parts on the map.","rbxassetid://129899967141649")
-	local faceButton = toolbar:CreateButton("Remove Double Faces","Removes duplicate face decals on rigs.","rbxassetid://129899967141649")
+	local unanchoredButton = toolbar:CreateButton("Unanchored Detector","Highlights all unanchored parts on the map.","rbxassetid://97431370187460")
+	local lockedButton = toolbar:CreateButton("Locked Detector","Highlights all locked parts on the map.","rbxassetid://97431370187460")
+	local faceButton = toolbar:CreateButton("Remove Double Faces","Removes duplicate face decals on rigs.","rbxassetid://97431370187460")
 	
 	local buttonOn1 = false
 	unanchoredButton.Click:Connect(function()
